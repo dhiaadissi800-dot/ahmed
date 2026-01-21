@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Streets Paradise RP</title>
+    <link rel="stylesheet" href="style.css">
+<body>
+<!-- LOGIN SCREEN -->
+<div id="login-screen">
+    <div class="login-box">
+        <h2>LOGIN</h2>
+
+        <input type="text" id="username" placeholder="Username">
+        <input type="password" id="password" placeholder="Password">
+
+        <button onclick="login()">Login</button>
+
+        <p class="login-error" id="login-error"></p>
+    </div>
+</div>
+
+<!-- MAIN SITE (HIDDEN UNTIL LOGIN) -->
+<div id="main-site" style="display:none;">
+    <!-- PARTICLES -->
+    <div id="particles"></div>
+
+    <!-- HERO -->
+    <header class="hero">
+    <div class="overlay">
+        <h1>Streets Paradise RP</h1>
+        <p>Next-Gen FiveM Roleplay Experience</p>
+
+        <div class="buttons">
+            <a href="https://discord.gg/DND24gMm" class="btn">Join Discord</a>
+            <a href="fivem://connect/YOURSERVERIP" class="btn secondary">Connect</a>
+        </div>
+
+        <div class="status">
+            <span class="online-dot"></span>
+            <span id="players">Players: 128/256</span>
+        </div>
+    </div>
+</header>
+
+<!-- INFO -->
+<section class="info">
+    <div class="card">🚓 Police & EMS<br><small>Advanced systems</small></div>
+    <div class="card">🏎 Custom Cars<br><small>Exclusive vehicles</small></div>
+    <div class="card">🏙 Serious RP<br><small>Active staff</small></div>
+</section>
+
+<!-- SHOP -->
+<section class="shop">
+    <h2>VIP SHOP</h2>
+
+    <div class="shop-items">
+
+        <div class="shop-card">
+            <img src="https://cdn.discordapp.com/attachments/1382793918667817012/1462421881977180394/a8c3df3c-ffd7-4603-9b02-90617a9b2752.png?ex=696f7383&is=696e2203&hm=d70c23e1701844c2116d33175040b61d3c60a681e76652d863cc2fae538aebc1&" alt="ped">
+            <h3>VIP ped</h3>
+            <p>$5</p>
+            <button>Buy</button>
+        </div>
+
+        <div class="shop-card neon">
+            <img src="https://cdn.discordapp.com/attachments/1382793918667817012/1462430834006163657/d55d5a-sidecar.png?ex=696f7bd9&is=696e2a59&hm=71dac5099266cfca6689da5d9f612d07ddc0add307af261620ce847082fc5413&" alt="VIP Gold">
+            <h3>VIP car</h3>
+            <p>$15</p>
+            <button>Buy</button>
+        </div>
+
+        <div class="shop-card">
+            <img src="https://cdn.discordapp.com/attachments/1382793918667817012/1462429851708555446/84c2cb-GTA5202016-10-232015-44-31-70.png?ex=696f7aef&is=696e296f&hm=a1c884718acfddf87a60da8dd1adcb6b1feabc3aa9fd6eee0f5be01b12e65196&" alt="VIP Diamond">
+            <h3>VIP moto</h3>
+            <p>$30</p>
+            <button>Buy</button>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    © 2026 Streets Paradise RP | FiveM Server
+</footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
